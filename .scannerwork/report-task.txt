@@ -3,5 +3,5 @@ projectKey=kuhlin-space-game-web-111
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.184
 dashboardUrl=https://sonarcloud.io/dashboard?id=kuhlin-space-game-web-111
-ceTaskId=AWx2H9FkSuEZ7Wgz0gst
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWx2H9FkSuEZ7Wgz0gst
+ceTaskId=AWx2eS2DKuuUDkG4U59P
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWx2eS2DKuuUDkG4U59P
