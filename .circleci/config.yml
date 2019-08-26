@@ -25,6 +25,9 @@ jobs:
       - run: 
           command: apt-get install nodejs -yq
 
+      - run: 
+          name: what is here
+          command: ls
       - run:
           name: Run npm install
           working_directory: ~/mslearn-tailspin-spacegame-web
