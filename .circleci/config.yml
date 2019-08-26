@@ -17,4 +17,5 @@ jobs:
       
       - run:
           name: Run npm install
-          command: npm
+          working_directory: ~/mslearn-tailspin-spacegame-web
+          command: npm install
