@@ -16,6 +16,14 @@ jobs:
           command: date      
       
       - run:
+          name: Installing npm on the docker
+          working_directory: ~/mslearn-tailspin-spacegame-web
+          command: apt-get update -yq \
+                    && apt-get install curl gnupg -yq \
+                    && curl -sL https://deb.nodesource.com/setup_8.x | bash \
+                    && apt-get install nodejs -yq
+
+      - run:
           name: Run npm install
           working_directory: ~/mslearn-tailspin-spacegame-web
           command: npm install
