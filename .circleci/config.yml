@@ -30,5 +30,8 @@ jobs:
           command: ls
       - run:
           name: Run npm install
-          working_directory: ~/mslearn-tailspin-spacegame-web
           command: npm install
+      - run:
+          name: Compile Sass assets
+          command: ./node_modules/.bin/node-sass Tailspin.SpaceGame.Web/wwwroot --output Tailspin.SpaceGame.Web/wwwroot
+
